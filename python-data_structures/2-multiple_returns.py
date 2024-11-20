@@ -6,4 +6,5 @@ def multiple_returns(sentence):
         tup = tup1 + tup2
         return tup
     else:
-        return "Length: {} -First character: None".format(len(sentence))
+        return (len(sentence), sentence[0] if sentence else None)
+
