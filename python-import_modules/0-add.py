@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import add_0
+from add_0 import add():
 
-print(add_0.add(1, 2))
+ print(add(1, 2))
