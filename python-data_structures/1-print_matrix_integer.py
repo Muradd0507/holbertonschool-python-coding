@@ -9,4 +9,4 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(j), end="\n")
             else:
                 print("{:d}".format(j), end=" ")
-            k += 1
+        k += 1
