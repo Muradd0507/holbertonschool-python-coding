@@ -4,7 +4,7 @@ def print_matrix_integer(matrix=[[]]):
     for i in matrix:
         for j in i:
             if k % 3 != 0:
-                print("{} ".format(j))
+                print("{}".format(j), end=" ")
             else:
-                print("{} ".format(j), end="\n")
+                print("{}".format(j), end="\n")
             k += 1
