@@ -8,4 +8,4 @@ def best_score(a_dictionary):
         if j == m:
             s = i
             break
-    return i, a_dictionary[i]
+    return i
