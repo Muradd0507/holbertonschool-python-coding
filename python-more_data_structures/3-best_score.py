@@ -2,10 +2,9 @@
 def best_score(a_dictionary):
     m = 0
     for i in a_dictionary:
-        if a_dictionary[i] > m:
-            m = a_dictionary[i]
-    for i, j in a_dictionary.items():
-        if j == m:
-            s = i
-            break
-    return i
+        if len(a_dictionary) > 0:
+            if a_dictionary[i] > m:
+                m = a_dictionary[i]
+            return i
+        else:
+            return None
