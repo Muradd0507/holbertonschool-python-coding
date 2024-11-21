@@ -5,6 +5,6 @@ def best_score(a_dictionary):
         if len(a_dictionary) > 0:
             if a_dictionary[i] > m:
                 m = a_dictionary[i]
-            return i
+            return m
         else:
             return None
