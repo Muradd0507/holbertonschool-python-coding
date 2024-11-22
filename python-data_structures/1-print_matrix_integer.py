@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-     up to 2 threads
-Compressing objects: 1
+    for row in matrix:
+        print(" ".join("{:d}".format(i) for i in row))
