@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+import sys
+
 if __name__ == "__main__":
 
-    argv = []
+    argv = sys.argv
     for t, argument in enumerate(argv):
         if len(argv) == 0:
             print("0 arguments")
