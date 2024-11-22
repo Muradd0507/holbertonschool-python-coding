@@ -17,4 +17,4 @@ if __name__ == "__main__":
         elif len(argv) == 1:
             print("{}: {}".format(t + 1, argument))
         else:
-            print("{}: {}\n".format(t + 1, argument))
+            print("{}: {}".format(t + 1, argument))
