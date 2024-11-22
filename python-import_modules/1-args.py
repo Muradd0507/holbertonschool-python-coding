@@ -4,6 +4,8 @@ import sys
 if __name__ == "__main__":
 
     argv = sys.argv
+    if len(argv) > 0:
+        argv = argv[1:]
     for t, argument in enumerate(argv):
         if len(argv) == 0:
             print("0 arguments")
