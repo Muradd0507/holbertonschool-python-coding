@@ -8,7 +8,7 @@ if __name__ == "__main__":
         argv = argv[1:]
     if len(argv) != 1:
         print("{} arguments:".format(len(argv)))
-    if len(argv) == 0:
+    elif len(argv) == 0:
         print("0 arguments.")
     else:
         print("1 argument:")
