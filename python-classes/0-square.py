@@ -2,6 +2,8 @@
 """
 This code defines the size of Square
 """
+
+
 class Square:
     """
     This is my first class
